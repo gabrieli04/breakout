@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+  }
+  
+  #pontuacao-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+  }
+  
+  canvas {
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  #reiniciar-btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00FF00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    display: none; 
+  }
+  
+  #reiniciar-btn.visible {
+    display: block; 
+  }
+  
+  #reiniciar-btn:hover {
+    background-color: #00CC00;
+  }
